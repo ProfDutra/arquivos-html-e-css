@@ -1,0 +1,29 @@
+
+/* pseudo-classes */
+button:hover{
+  color: blue;
+  background-color: yellow;
+}
+
+a:link{
+  color: green;
+  text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+a:active{
+    background-color: gray;
+}
+
+a::after{
+    content: ' [link]';
+    color: blue;
+}
